@@ -33,6 +33,6 @@ def predict():
         "index.html",
         prediction_text=f"Predicted Price: ₹{prediction[0]}"
     )
-app.run(debug=True)
+app.run(host="0.0.0.0", port=10000)
 
 
